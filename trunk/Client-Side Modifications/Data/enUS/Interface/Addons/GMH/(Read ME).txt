@@ -1,0 +1,13 @@
+The version in here is Patch 3.1.X and 3.2.X only! Thanks!
+
+Developers:
+Maven(aka deathdude) - Maven01@live.com
+
+Credits:
+Skate (Ex-Developer) (Skate555@gmail.com) (For keeping this project on it's feet and moving forward)
+lawl (Ex-Developer) - lawl@thedanisme.com
+Ohm (a.k.a. dx and Echo) (Thank you for getting the ball rolling)
+Rushowr and his team (Original Idea)
+1337dood (TicketTracker) (If it wasn't for the TicketTracker...nobody would use this thing)
+Mukele (ItemSearchForm)
+Stewart - Solved the "Enter" bug on the TicketTracker

@@ -1,0 +1,42 @@
+## Interface: 30100
+## Title: |cFF00FF00GMH (GameMaster's Helper) v1.1.0|r
+## Author: Maven
+## Version: 1.1.0
+## X-Revision: 273 
+## Notes: An addon to manage GM commands in an ArcEmu based World of Warcraft private server.
+## eMail: Maven01@live.com
+## URL: http://opensvn.csie.org/GMHelper/ || svn://arcemu.info/svn
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: gmhview,TicketChannel,TicketPassword,savedannmsg,savedannflag,GMH_ShowOnLoad
+GMH.lua
+FullForm.xml
+MiniForm.xml
+MinipForm.xml
+bindings.xml
+MinimapButton.xml
+AnnounceForm.xml
+BanForm.xml
+BattlegroundForm.xml
+CommForm.xml
+IPBanForm.xml
+ItemForm.xml
+ItemFormSearch.xml
+MiscForm.xml
+ModifyForm.xml
+NPCForm.xml
+ObjectForm.xml
+Options.xml
+OverridesForm.xml
+PlayerForm.xml
+ProfessionsForm.xml
+QuestForm.xml
+QuickItemForm.xml
+QuickPortalForm.xml
+SkillForm.xml
+SpellForm.xml
+TeleForm.xml
+WepskForm.xml
+TicketView.xml
+TicketTracker.xml
+TicketTracker.lua
