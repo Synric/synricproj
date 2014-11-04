@@ -1,0 +1,48 @@
+//--------------------------------------
+//--- 010 Editor v5.0.2 Script File
+//
+// File:
+// Author:
+// Revision:
+// Purpose:
+//--------------------------------------
+uint32 i;
+
+for( i = 0; i < wmo_file.momt.i; i++ )
+{
+if (wmo_file.momt.entry[i].flags == 7)
+{
+wmo_file.momt.entry[i].flags = 6;
+}
+else if (wmo_file.momt.entry[i].flags == 13)
+{
+wmo_file.momt.entry[i].flags = 6;
+}
+else if (wmo_file.momt.entry[i].flags == 6)
+{
+wmo_file.momt.entry[i].flags = 6;
+}
+else if (wmo_file.momt.entry[i].flags == 4)
+{
+wmo_file.momt.entry[i].flags = 4;
+}
+else if (wmo_file.momt.entry[i].flags == 3)
+{
+wmo_file.momt.entry[i].flags = 3;
+}
+else if (wmo_file.momt.entry[i].flags == 1)
+{
+wmo_file.momt.entry[i].flags = 1;
+}
+else if (wmo_file.momt.entry[i].flags == 2)
+{
+wmo_file.momt.entry[i].flags = 2;
+}
+else if (wmo_file.momt.entry[i].flags != 5)
+{
+wmo_file.momt.entry[i].flags = 0;
+}
+}
+
+FileSave();
+FileClose();
